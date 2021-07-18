@@ -1,0 +1,80 @@
+.head-bar {
+  width: 100%;
+  height: 70px;
+  background-image: url("./media/corono.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-bar img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+.head-bar h3 {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  right: 20px;
+  top: 22px;
+}
+
+body {
+  background: black;
+}
+
+tr:hover {
+  background-color: #1F1F1C;
+}
+
+tr {
+  display: table-row;
+}
+
+tr th {
+  color: white;
+  font-weight: bold;
+}
+
+tr td {
+  color: white;
+}
+
+tr .deaths {
+  color: red;
+}
+
+tr .confirmed {
+  color: #CCCC00;
+}
+
+tr .recovered {
+  color: green;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+
+footer ul {
+  color: white;
+  font-size: 20px;
+}
+
+footer ul li {
+  margin-top: 10px;
+}
+
+footer .ui.grid {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer img {
+  margin-top: 20px;
+}
